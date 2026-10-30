@@ -1,0 +1,17 @@
+# Configurações locais e segredos
+.env
+dados/config.json
+
+# Base de dados local SQLite
+dados/*.db
+dados/*.db-wal
+dados/*.db-shm
+dados/*.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
