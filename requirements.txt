@@ -1,0 +1,2 @@
+# Tutor de Matemática Inteligente
+# A aplicação utiliza estritamente a biblioteca padrão do Python 3 (sem dependências externas).

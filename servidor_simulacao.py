@@ -50,7 +50,7 @@ def obter_docente_senha():
             pass
     return "profmat2026"
 
-PORT = 8000
+PORT = int(os.environ.get("PORT", 8000))
 DB_PATH = os.path.join(BASE_DIR, "dados", "tutor.db")
 
 # Assegurar base de dados inicializada
